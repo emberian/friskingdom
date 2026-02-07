@@ -1,0 +1,9 @@
+[package]
+name = "frisbee-physics"
+version = "0.1.0"
+edition = "2021"
+description = "Standalone disc aerodynamics simulation for ultimate frisbee"
+
+[dependencies]
+glam = { workspace = true, features = ["libm"] }
+libm = "0.2"

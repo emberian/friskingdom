@@ -1,0 +1,12 @@
+[package]
+name = "fk-test-utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { workspace = true }
+fk-core = { workspace = true }
+fk-game = { workspace = true }
+fk-ai = { workspace = true }
+frisbee-physics = { workspace = true }
+rand = { workspace = true }

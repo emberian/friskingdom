@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "friskingdom-debug": {
+      "command": "uv",
+      "args": ["run", "--directory", "/Users/ember/dev/friskingdom/tools/mcp-game-server", "python", "server.py"]
+    }
+  }
+}

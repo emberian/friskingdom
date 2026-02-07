@@ -1,0 +1,9 @@
+[project]
+name = "friskingdom-mcp"
+version = "0.1.0"
+description = "MCP server for FrisKingdom game debugging"
+requires-python = ">=3.10"
+dependencies = ["fastmcp>=2.0"]
+
+[project.scripts]
+friskingdom-mcp = "server:main"
